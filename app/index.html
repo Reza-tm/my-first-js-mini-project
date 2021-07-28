@@ -11,30 +11,31 @@
     <div class="flex items-center justify-center mt-24">
         <ul class="bg-gray-900 rounded w-64 text-white divide-y divide-gray-400">
             <li class=" px-6 py-4 select-none flex justify-between items-center">Message
-                <div class="bg-white text-gray-900 p-1 rounded-full flex items-center"><p id="msgNotif" class="font-bold ml-1">4</p>
+                <div class="bg-white text-gray-900 p-1 rounded-full flex items-center"><p id="msgNotif"  class="notif font-bold ml-1">4</p>
                     <svg  xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 mr-1" viewBox="0 0 20 20" fill="currentColor">
                     <path fill-rule="evenodd"  d="M18 13V5a2 2 0 00-2-2H4a2 2 0 00-2 2v8a2 2 0 002 2h3l3 3 3-3h3a2 2 0 002-2zM5 7a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1zm1 3a1 1 0 100 2h3a1 1 0 100-2H6z" clip-rule="evenodd" />
                   </svg></div>
             </li>
             <li class=" px-6 py-4 select-none flex justify-between items-center">Miss calls
-                <div class="bg-white text-gray-900 p-1 rounded-full flex items-center"><p id="callNotif" class="font-bold ml-1">2</p>
+                <div class="bg-white text-gray-900 p-1 rounded-full flex items-center"><p id="callNotif"  class="notif font-bold ml-1">2</p>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 mr-1" viewBox="0 0 20 20" fill="currentColor">
                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                     <path d="M16.707 3.293a1 1 0 010 1.414L15.414 6l1.293 1.293a1 1 0 01-1.414 1.414L14 7.414l-1.293 1.293a1 1 0 11-1.414-1.414L12.586 6l-1.293-1.293a1 1 0 011.414-1.414L14 4.586l1.293-1.293a1 1 0 011.414 0z" />
                   </svg></div>
             </li>
             <li class=" px-6 py-4 select-none flex justify-between items-center">Contacts
-                <div class="bg-white text-gray-900 p-1 rounded-full flex items-center"><p id="seeNotif" class="font-bold ml-1">8</p>
+                <div class="bg-white text-gray-900 p-1 rounded-full flex items-center"><p id="seeNotif" class="notif font-bold ml-1">8</p>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 mr-1" viewBox="0 0 20 20" fill="currentColor">
                     <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z" />
                   </svg></div>
             </li>
         </ul>
     </div>
-    <div class="flex mt-3 mx-auto justify-start w-64 flex-col space-y-1">
-        <button id="readBtn" class="bg-gray-900 text-white px-2 py-2 rounded w-full px-6">Read message</button>
-        <button id="callBtn" class="bg-gray-900 text-white px-2 py-2 rounded w-full px-6">Call back</button>
-        <button id="seeBtn" class="bg-gray-900 text-white px-2 py-2 rounded w-full px-6">See contact</button>
+    <div class="flex mt-3 mx-auto justify-start w-64 flex-col">
+        <button id="readBtn" class="bg-gray-900 text-white px-2 py-2 rounded w-full mt-0  px-6">Read message</button>
+        <button id="callBtn" class="bg-gray-900 text-white px-2 py-2 rounded w-full  mt-1 px-6">Call back</button>
+        <button id="seeBtn" class="bg-gray-900 text-white px-2 py-2 rounded w-full  mt-1 px-6">See contact</button>
+        <button id="removeAll" class="bg-gray-900 text-white px-2 py-2 rounded w-full  mt-3 px-6 uppercase">Remove All</button>
     </div>
 
     <script src="js/scripts.js"></script>

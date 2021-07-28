@@ -18,3 +18,11 @@ let seeNotif = document.querySelector("#seeNotif") ;
 seeBtn.addEventListener("click" , ()=>{
     seeNotif.remove()
 })
+
+let allNotif = document.querySelectorAll(".notif") ;
+let removeBtn = document.querySelector('#removeAll');
+removeBtn.addEventListener("click" , (remove)=>{
+    allNotif.forEach((items)=>{
+        items.remove()
+    })
+})
